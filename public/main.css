@@ -610,6 +610,18 @@ video {
   height: fit-content;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -624,6 +636,15 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .cursor-pointer {
@@ -982,6 +1003,16 @@ button:focus-visible {
 .group:hover .group-hover\:bg-darkRed {
   --tw-bg-opacity: 1;
   background-color: hsl(6 70% 34% / var(--tw-bg-opacity));
+}
+
+@media (min-width: 480px) {
+  .sm\:w-11\/12 {
+    width: 91.666667%;
+  }
+
+  .sm\:w-10\/12 {
+    width: 83.333333%;
+  }
 }
 
 @media (min-width: 768px) {
